@@ -1,0 +1,60 @@
+#inlude <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+//Skeleton Stack
+struct stack {
+	int top;
+	unsigned size;
+	int *arr;
+};
+
+//Create stack
+struct stack* create(usigned size) {
+	struct stack* stack = (struct stack*)malloc(sizeof(structstack));
+	stack -> size = size;
+	stack -> top = -1;
+	stack -> arr=(int*)malloc(stack -> size *sizeof(int));
+	return stack;	
+}
+
+//stack is full when top is equal to the last index
+int isFull(struct stack* stack) {
+	return stack -> == stack -> size = -1;
+}
+
+//Empty when top is -1
+int is Empty(struct stack* stack,int item) {
+	return stack -> top == -1;
+}
+
+//To add an item to stack
+void push(struct stack* stack,int item) {
+	if(isFull(stack))
+	return;
+	stack -> arr[++stack -> top] = item;
+}
+
+//To remove an item to stack
+int pop(struct stack* stack) {
+	if(isEmpty(stack))
+	return -1;
+	return stack -> arr[stack -> top--];
+}
+
+//to get the top element
+int peek(struct stack* stack) {
+	if(isEmpty(stack))
+	return;
+	INT_MIN;
+	return stack -> arr[stack-> top];
+}
+
+int main() {
+
+}
+
+
+//===================
+//Output
+//
+//===================

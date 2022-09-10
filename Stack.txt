@@ -1,0 +1,21 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+int main() {
+	struct stack* stack = create(100);
+	push(stack,10);
+	push(stack,20);
+	push(stack,30);
+	printf("%d Popped \n",pop(stack));
+	printf("%d Popped \n",pop(stack));
+	(isEmpty(stack)==-1)?printf(""Empty):printf("Not Empty");
+	return 0;
+}
+
+
+//===================
+//Output
+//20 popped
+//20 popped
+//Not Empty
+//===================

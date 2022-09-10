@@ -1,0 +1,17 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+int main() {
+	int arr[]={1,2,3,2,3,1,4,5,5,6,6};
+	int res = 0;
+	for () {
+		res = res ^ arr[i];
+	}
+	printf("%d",res);
+}
+
+
+//===================
+//Output
+//4
+//===================

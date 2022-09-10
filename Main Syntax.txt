@@ -1,0 +1,9 @@
+#inlude <stdio.h>	//Preprocessor
+#include <conio.h>	//Preprocessor
+
+void main() {	//Execution
+
+printf("Hello World");	//Body
+
+getch();	//Hold untill key pressed
+}

@@ -1,0 +1,19 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+void find middle () {
+	node *slow = head;
+	node *fast = head;
+	if (head!=NULL) {
+		while (fast!=NULL && fast -> next!=NULL) {
+			fast = fast -> next -> next;
+			slow = slow -> next;
+		}
+	printf("Middle element is %d \n",slow->data);
+	}
+}
+
+//===================
+//Output
+//
+//===================

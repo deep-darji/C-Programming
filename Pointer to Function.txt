@@ -1,0 +1,25 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+int add(int,int);
+
+int main() {
+	int a,b,result;
+	int (8ip)(int,int);
+	printf("Enter the value of a and b :");
+	scanf("%d %d",&a,&b);
+	ip=add
+	result=(*ip)(a,b);
+	printf(""Value after addition is : %d",result);
+	return 0;
+}
+int add(int a,int b) {
+	int c=a+b;
+	return c;
+}
+
+
+//===================
+//Output
+//
+//===================

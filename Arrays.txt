@@ -1,0 +1,22 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+int main() {
+int a[5];
+int i;
+for (i=0; i<5; i++) {
+a[i]=i+1;
+}
+
+for(i=0; i<5; i++) {
+printf("%d",a[i]);
+}
+
+getch();
+}
+
+
+//===================
+//Output
+//1 2 3 4 5
+//===================

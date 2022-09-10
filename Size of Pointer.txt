@@ -1,0 +1,25 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+struct student {
+	int regNo;	
+	char sname[20];
+	float avg;
+};
+
+int main() {
+	chat *cptr;	
+	int *iptr;
+	struct student* sptr;
+	printf("Size of is char* : %d\n",sizeof(cptr));
+	printf("Size of is int* : %d\n",sizeof(iptr));
+	printf("Size of is student* : %d\n",sizeof(sptr));
+}
+
+
+//===================
+//Output
+//1
+//2
+//26
+//===================

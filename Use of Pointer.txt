@@ -1,0 +1,20 @@
+#inlude <stdio.h>
+#include <conio.h>
+
+void main() {
+	int i=200;
+	int* pointer;	
+	pointer = &i;
+	printf("%d\n",i); //200
+	printf("%d\n",pointer); //7058
+	printf("%d\n",&i); //7058
+	printf("%d\n",&pointer); //4586
+	printf("%d\n",* pointer); //200
+	printf("%d\n",*(&i)); //200
+}
+
+
+//===================
+//Output
+//
+//===================
